@@ -38,7 +38,7 @@ st.title("🌾 FR Excel formatter")
 st.markdown("Upload multiple Excel files to deduplicate and group records by Village.")
 
 # 1. File Upload Section
-uploaded_files = st.file_uploader("Upload Excel files", type="xlsx, csv", accept_multiple_files=True)
+uploaded_files = st.file_uploader("Upload Excel files", type="xlsx", accept_multiple_files=True)
 
 if uploaded_files:
     # Read and combine files
